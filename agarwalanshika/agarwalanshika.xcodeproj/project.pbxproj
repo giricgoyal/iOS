@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671FE13B18FB3CB90088E5C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE13A18FB3CB90088E5C7 /* Foundation.framework */; };
+		671FE13D18FB3CB90088E5C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE13C18FB3CB90088E5C7 /* CoreGraphics.framework */; };
+		671FE13F18FB3CB90088E5C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE13E18FB3CB90088E5C7 /* UIKit.framework */; };
+		671FE14518FB3CB90088E5C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 671FE14318FB3CB90088E5C7 /* InfoPlist.strings */; };
+		671FE14718FB3CB90088E5C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE14618FB3CB90088E5C7 /* main.m */; };
+		671FE14B18FB3CB90088E5C7 /* agarwalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE14A18FB3CB90088E5C7 /* agarwalAppDelegate.m */; };
+		671FE14E18FB3CB90088E5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671FE14C18FB3CB90088E5C7 /* Main.storyboard */; };
+		671FE15118FB3CB90088E5C7 /* agarwalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE15018FB3CB90088E5C7 /* agarwalViewController.m */; };
+		671FE15318FB3CB90088E5C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671FE15218FB3CB90088E5C7 /* Images.xcassets */; };
+		671FE15A18FB3CB90088E5C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE15918FB3CB90088E5C7 /* XCTest.framework */; };
+		671FE15B18FB3CB90088E5C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE13A18FB3CB90088E5C7 /* Foundation.framework */; };
+		671FE15C18FB3CB90088E5C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671FE13E18FB3CB90088E5C7 /* UIKit.framework */; };
+		671FE16418FB3CB90088E5C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 671FE16218FB3CB90088E5C7 /* InfoPlist.strings */; };
+		671FE16618FB3CB90088E5C7 /* agarwalanshikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE16518FB3CB90088E5C7 /* agarwalanshikaTests.m */; };
+		671FE17018FB3CE20088E5C7 /* anshikaMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 671FE16F18FB3CE20088E5C7 /* anshikaMain.jpg */; };
+		671FE17618FB420F0088E5C7 /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17518FB420F0088E5C7 /* linkedin.png */; };
+		671FE17818FB42160088E5C7 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17718FB42160088E5C7 /* twitter.png */; };
+		671FE17A18FB421D0088E5C7 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17918FB421D0088E5C7 /* icon-60@2x.png */; };
+		671FE17C18FB431E0088E5C7 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17B18FB431E0088E5C7 /* Facebook.png */; };
+		671FE17E18FB5B6C0088E5C7 /* Blog.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17D18FB5B6C0088E5C7 /* Blog.png */; };
+		671FE18318FB5BF00088E5C7 /* baking girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE17F18FB5BF00088E5C7 /* baking girl.png */; };
+		671FE18418FB5BF00088E5C7 /* mailbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18018FB5BF00088E5C7 /* mailbox.png */; };
+		671FE18618FB5BF00088E5C7 /* travel.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18218FB5BF00088E5C7 /* travel.png */; };
+		671FE18818FB5C190088E5C7 /* cupcake.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18718FB5C190088E5C7 /* cupcake.png */; };
+		671FE18A18FB5D9B0088E5C7 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18918FB5D9B0088E5C7 /* resume.png */; };
+		671FE18F18FB5F000088E5C7 /* bakingMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18B18FB5F000088E5C7 /* bakingMain.png */; };
+		671FE19018FB5F000088E5C7 /* blogMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18C18FB5F000088E5C7 /* blogMain.png */; };
+		671FE19118FB5F000088E5C7 /* resumeMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18D18FB5F000088E5C7 /* resumeMain.png */; };
+		671FE19218FB5F000088E5C7 /* travelMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE18E18FB5F000088E5C7 /* travelMain.png */; };
+		671FE19418FB61CB0088E5C7 /* contactMeMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE19318FB61CB0088E5C7 /* contactMeMain.png */; };
+		671FE19618FB8DCE0088E5C7 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 671FE19518FB8DCE0088E5C7 /* mail.png */; };
+		671FE19E18FB95B50088E5C7 /* agarwalContactMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE19D18FB95B50088E5C7 /* agarwalContactMeViewController.m */; };
+		671FE1A418FB9A5B0088E5C7 /* agarwalBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE1A318FB9A5B0088E5C7 /* agarwalBlogViewController.m */; };
+		671FE1A718FB9FAF0088E5C7 /* agarwalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671FE1A618FB9FAF0088E5C7 /* agarwalWebViewController.m */; };
+		6733F84A18FBB59F00B3D30D /* agarwalBakingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733F84918FBB59F00B3D30D /* agarwalBakingViewController.m */; };
+		6733F84D18FBB6EA00B3D30D /* agarwalTravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733F84C18FBB6EA00B3D30D /* agarwalTravelViewController.m */; };
+		6733F85318FBB9E800B3D30D /* blogging.png in Resources */ = {isa = PBXBuildFile; fileRef = 6733F84E18FBB9E800B3D30D /* blogging.png */; };
+		6733F85418FBB9E800B3D30D /* call5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6733F84F18FBB9E800B3D30D /* call5.png */; };
+		6733F85518FBB9E800B3D30D /* cupcake5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6733F85018FBB9E800B3D30D /* cupcake5.png */; };
+		6733F85618FBB9E800B3D30D /* curriculum.png in Resources */ = {isa = PBXBuildFile; fileRef = 6733F85118FBB9E800B3D30D /* curriculum.png */; };
+		6733F85718FBB9E800B3D30D /* eiffel.png in Resources */ = {isa = PBXBuildFile; fileRef = 6733F85218FBB9E800B3D30D /* eiffel.png */; };
+		6733F85A18FBC1B200B3D30D /* agarwalResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733F85918FBC1B200B3D30D /* agarwalResumeViewController.m */; };
+		6733F85C18FBC7AB00B3D30D /* anshikaResume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6733F85B18FBC7AB00B3D30D /* anshikaResume.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		671FE15D18FB3CB90088E5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671FE12F18FB3CB90088E5C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671FE13618FB3CB90088E5C7;
+			remoteInfo = agarwalanshika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		671FE13718FB3CB90088E5C7 /* agarwalanshika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agarwalanshika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671FE13A18FB3CB90088E5C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		671FE13C18FB3CB90088E5C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		671FE13E18FB3CB90088E5C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		671FE14218FB3CB90088E5C7 /* agarwalanshika-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "agarwalanshika-Info.plist"; sourceTree = "<group>"; };
+		671FE14418FB3CB90088E5C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		671FE14618FB3CB90088E5C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671FE14818FB3CB90088E5C7 /* agarwalanshika-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "agarwalanshika-Prefix.pch"; sourceTree = "<group>"; };
+		671FE14918FB3CB90088E5C7 /* agarwalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agarwalAppDelegate.h; sourceTree = "<group>"; };
+		671FE14A18FB3CB90088E5C7 /* agarwalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = agarwalAppDelegate.m; sourceTree = "<group>"; };
+		671FE14D18FB3CB90088E5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671FE14F18FB3CB90088E5C7 /* agarwalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agarwalViewController.h; sourceTree = "<group>"; };
+		671FE15018FB3CB90088E5C7 /* agarwalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = agarwalViewController.m; sourceTree = "<group>"; };
+		671FE15218FB3CB90088E5C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		671FE15818FB3CB90088E5C7 /* agarwalanshikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = agarwalanshikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671FE15918FB3CB90088E5C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		671FE16118FB3CB90088E5C7 /* agarwalanshikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "agarwalanshikaTests-Info.plist"; sourceTree = "<group>"; };
+		671FE16318FB3CB90088E5C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		671FE16518FB3CB90088E5C7 /* agarwalanshikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = agarwalanshikaTests.m; sourceTree = "<group>"; };
+		671FE16F18FB3CE20088E5C7 /* anshikaMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anshikaMain.jpg; sourceTree = "<group>"; };
+		671FE17518FB420F0088E5C7 /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
+		671FE17718FB42160088E5C7 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		671FE17918FB421D0088E5C7 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		671FE17B18FB431E0088E5C7 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		671FE17D18FB5B6C0088E5C7 /* Blog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blog.png; sourceTree = "<group>"; };
+		671FE17F18FB5BF00088E5C7 /* baking girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baking girl.png"; sourceTree = "<group>"; };
+		671FE18018FB5BF00088E5C7 /* mailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailbox.png; sourceTree = "<group>"; };
+		671FE18218FB5BF00088E5C7 /* travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travel.png; sourceTree = "<group>"; };
+		671FE18718FB5C190088E5C7 /* cupcake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cupcake.png; sourceTree = "<group>"; };
+		671FE18918FB5D9B0088E5C7 /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume.png; sourceTree = "<group>"; };
+		671FE18B18FB5F000088E5C7 /* bakingMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakingMain.png; sourceTree = "<group>"; };
+		671FE18C18FB5F000088E5C7 /* blogMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blogMain.png; sourceTree = "<group>"; };
+		671FE18D18FB5F000088E5C7 /* resumeMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resumeMain.png; sourceTree = "<group>"; };
+		671FE18E18FB5F000088E5C7 /* travelMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travelMain.png; sourceTree = "<group>"; };
+		671FE19318FB61CB0088E5C7 /* contactMeMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactMeMain.png; sourceTree = "<group>"; };
+		671FE19518FB8DCE0088E5C7 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		671FE19C18FB95B50088E5C7 /* agarwalContactMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalContactMeViewController.h; sourceTree = "<group>"; };
+		671FE19D18FB95B50088E5C7 /* agarwalContactMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalContactMeViewController.m; sourceTree = "<group>"; };
+		671FE1A218FB9A5B0088E5C7 /* agarwalBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalBlogViewController.h; sourceTree = "<group>"; };
+		671FE1A318FB9A5B0088E5C7 /* agarwalBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalBlogViewController.m; sourceTree = "<group>"; };
+		671FE1A518FB9FAF0088E5C7 /* agarwalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalWebViewController.h; sourceTree = "<group>"; };
+		671FE1A618FB9FAF0088E5C7 /* agarwalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalWebViewController.m; sourceTree = "<group>"; };
+		6733F84818FBB59F00B3D30D /* agarwalBakingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalBakingViewController.h; sourceTree = "<group>"; };
+		6733F84918FBB59F00B3D30D /* agarwalBakingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalBakingViewController.m; sourceTree = "<group>"; };
+		6733F84B18FBB6EA00B3D30D /* agarwalTravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalTravelViewController.h; sourceTree = "<group>"; };
+		6733F84C18FBB6EA00B3D30D /* agarwalTravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalTravelViewController.m; sourceTree = "<group>"; };
+		6733F84E18FBB9E800B3D30D /* blogging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blogging.png; sourceTree = "<group>"; };
+		6733F84F18FBB9E800B3D30D /* call5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call5.png; sourceTree = "<group>"; };
+		6733F85018FBB9E800B3D30D /* cupcake5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cupcake5.png; sourceTree = "<group>"; };
+		6733F85118FBB9E800B3D30D /* curriculum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curriculum.png; sourceTree = "<group>"; };
+		6733F85218FBB9E800B3D30D /* eiffel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eiffel.png; sourceTree = "<group>"; };
+		6733F85818FBC1B200B3D30D /* agarwalResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agarwalResumeViewController.h; sourceTree = "<group>"; };
+		6733F85918FBC1B200B3D30D /* agarwalResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agarwalResumeViewController.m; sourceTree = "<group>"; };
+		6733F85B18FBC7AB00B3D30D /* anshikaResume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anshikaResume.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671FE13418FB3CB90088E5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE13D18FB3CB90088E5C7 /* CoreGraphics.framework in Frameworks */,
+				671FE13F18FB3CB90088E5C7 /* UIKit.framework in Frameworks */,
+				671FE13B18FB3CB90088E5C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671FE15518FB3CB90088E5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE15A18FB3CB90088E5C7 /* XCTest.framework in Frameworks */,
+				671FE15C18FB3CB90088E5C7 /* UIKit.framework in Frameworks */,
+				671FE15B18FB3CB90088E5C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		671FE12E18FB3CB90088E5C7 = {
+			isa = PBXGroup;
+			children = (
+				6733F85B18FBC7AB00B3D30D /* anshikaResume.pdf */,
+				6733F84E18FBB9E800B3D30D /* blogging.png */,
+				6733F84F18FBB9E800B3D30D /* call5.png */,
+				6733F85018FBB9E800B3D30D /* cupcake5.png */,
+				6733F85118FBB9E800B3D30D /* curriculum.png */,
+				6733F85218FBB9E800B3D30D /* eiffel.png */,
+				671FE19518FB8DCE0088E5C7 /* mail.png */,
+				671FE18B18FB5F000088E5C7 /* bakingMain.png */,
+				671FE18C18FB5F000088E5C7 /* blogMain.png */,
+				671FE18D18FB5F000088E5C7 /* resumeMain.png */,
+				671FE19318FB61CB0088E5C7 /* contactMeMain.png */,
+				671FE18E18FB5F000088E5C7 /* travelMain.png */,
+				671FE18918FB5D9B0088E5C7 /* resume.png */,
+				671FE18718FB5C190088E5C7 /* cupcake.png */,
+				671FE17F18FB5BF00088E5C7 /* baking girl.png */,
+				671FE18018FB5BF00088E5C7 /* mailbox.png */,
+				671FE18218FB5BF00088E5C7 /* travel.png */,
+				671FE17D18FB5B6C0088E5C7 /* Blog.png */,
+				671FE17B18FB431E0088E5C7 /* Facebook.png */,
+				671FE17918FB421D0088E5C7 /* icon-60@2x.png */,
+				671FE17718FB42160088E5C7 /* twitter.png */,
+				671FE17518FB420F0088E5C7 /* linkedin.png */,
+				671FE16F18FB3CE20088E5C7 /* anshikaMain.jpg */,
+				671FE14018FB3CB90088E5C7 /* agarwalanshika */,
+				671FE15F18FB3CB90088E5C7 /* agarwalanshikaTests */,
+				671FE13918FB3CB90088E5C7 /* Frameworks */,
+				671FE13818FB3CB90088E5C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		671FE13818FB3CB90088E5C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671FE13718FB3CB90088E5C7 /* agarwalanshika.app */,
+				671FE15818FB3CB90088E5C7 /* agarwalanshikaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671FE13918FB3CB90088E5C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671FE13A18FB3CB90088E5C7 /* Foundation.framework */,
+				671FE13C18FB3CB90088E5C7 /* CoreGraphics.framework */,
+				671FE13E18FB3CB90088E5C7 /* UIKit.framework */,
+				671FE15918FB3CB90088E5C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671FE14018FB3CB90088E5C7 /* agarwalanshika */ = {
+			isa = PBXGroup;
+			children = (
+				671FE1A218FB9A5B0088E5C7 /* agarwalBlogViewController.h */,
+				671FE1A318FB9A5B0088E5C7 /* agarwalBlogViewController.m */,
+				671FE14918FB3CB90088E5C7 /* agarwalAppDelegate.h */,
+				671FE14A18FB3CB90088E5C7 /* agarwalAppDelegate.m */,
+				671FE14C18FB3CB90088E5C7 /* Main.storyboard */,
+				6733F85818FBC1B200B3D30D /* agarwalResumeViewController.h */,
+				6733F85918FBC1B200B3D30D /* agarwalResumeViewController.m */,
+				6733F84B18FBB6EA00B3D30D /* agarwalTravelViewController.h */,
+				6733F84C18FBB6EA00B3D30D /* agarwalTravelViewController.m */,
+				6733F84818FBB59F00B3D30D /* agarwalBakingViewController.h */,
+				6733F84918FBB59F00B3D30D /* agarwalBakingViewController.m */,
+				671FE1A518FB9FAF0088E5C7 /* agarwalWebViewController.h */,
+				671FE1A618FB9FAF0088E5C7 /* agarwalWebViewController.m */,
+				671FE14F18FB3CB90088E5C7 /* agarwalViewController.h */,
+				671FE19C18FB95B50088E5C7 /* agarwalContactMeViewController.h */,
+				671FE19D18FB95B50088E5C7 /* agarwalContactMeViewController.m */,
+				671FE15018FB3CB90088E5C7 /* agarwalViewController.m */,
+				671FE15218FB3CB90088E5C7 /* Images.xcassets */,
+				671FE14118FB3CB90088E5C7 /* Supporting Files */,
+			);
+			path = agarwalanshika;
+			sourceTree = "<group>";
+		};
+		671FE14118FB3CB90088E5C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				671FE14218FB3CB90088E5C7 /* agarwalanshika-Info.plist */,
+				671FE14318FB3CB90088E5C7 /* InfoPlist.strings */,
+				671FE14618FB3CB90088E5C7 /* main.m */,
+				671FE14818FB3CB90088E5C7 /* agarwalanshika-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		671FE15F18FB3CB90088E5C7 /* agarwalanshikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				671FE16518FB3CB90088E5C7 /* agarwalanshikaTests.m */,
+				671FE16018FB3CB90088E5C7 /* Supporting Files */,
+			);
+			path = agarwalanshikaTests;
+			sourceTree = "<group>";
+		};
+		671FE16018FB3CB90088E5C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				671FE16118FB3CB90088E5C7 /* agarwalanshikaTests-Info.plist */,
+				671FE16218FB3CB90088E5C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671FE13618FB3CB90088E5C7 /* agarwalanshika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671FE16918FB3CB90088E5C7 /* Build configuration list for PBXNativeTarget "agarwalanshika" */;
+			buildPhases = (
+				671FE13318FB3CB90088E5C7 /* Sources */,
+				671FE13418FB3CB90088E5C7 /* Frameworks */,
+				671FE13518FB3CB90088E5C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = agarwalanshika;
+			productName = agarwalanshika;
+			productReference = 671FE13718FB3CB90088E5C7 /* agarwalanshika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		671FE15718FB3CB90088E5C7 /* agarwalanshikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671FE16C18FB3CB90088E5C7 /* Build configuration list for PBXNativeTarget "agarwalanshikaTests" */;
+			buildPhases = (
+				671FE15418FB3CB90088E5C7 /* Sources */,
+				671FE15518FB3CB90088E5C7 /* Frameworks */,
+				671FE15618FB3CB90088E5C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671FE15E18FB3CB90088E5C7 /* PBXTargetDependency */,
+			);
+			name = agarwalanshikaTests;
+			productName = agarwalanshikaTests;
+			productReference = 671FE15818FB3CB90088E5C7 /* agarwalanshikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671FE12F18FB3CB90088E5C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = agarwal;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = myorg;
+				TargetAttributes = {
+					671FE15718FB3CB90088E5C7 = {
+						TestTargetID = 671FE13618FB3CB90088E5C7;
+					};
+				};
+			};
+			buildConfigurationList = 671FE13218FB3CB90088E5C7 /* Build configuration list for PBXProject "agarwalanshika" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671FE12E18FB3CB90088E5C7;
+			productRefGroup = 671FE13818FB3CB90088E5C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671FE13618FB3CB90088E5C7 /* agarwalanshika */,
+				671FE15718FB3CB90088E5C7 /* agarwalanshikaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671FE13518FB3CB90088E5C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE18818FB5C190088E5C7 /* cupcake.png in Resources */,
+				671FE19118FB5F000088E5C7 /* resumeMain.png in Resources */,
+				671FE19218FB5F000088E5C7 /* travelMain.png in Resources */,
+				671FE17E18FB5B6C0088E5C7 /* Blog.png in Resources */,
+				6733F85618FBB9E800B3D30D /* curriculum.png in Resources */,
+				671FE18418FB5BF00088E5C7 /* mailbox.png in Resources */,
+				671FE15318FB3CB90088E5C7 /* Images.xcassets in Resources */,
+				671FE19618FB8DCE0088E5C7 /* mail.png in Resources */,
+				6733F85718FBB9E800B3D30D /* eiffel.png in Resources */,
+				6733F85418FBB9E800B3D30D /* call5.png in Resources */,
+				671FE18A18FB5D9B0088E5C7 /* resume.png in Resources */,
+				671FE17C18FB431E0088E5C7 /* Facebook.png in Resources */,
+				671FE14518FB3CB90088E5C7 /* InfoPlist.strings in Resources */,
+				6733F85318FBB9E800B3D30D /* blogging.png in Resources */,
+				671FE17A18FB421D0088E5C7 /* icon-60@2x.png in Resources */,
+				671FE19018FB5F000088E5C7 /* blogMain.png in Resources */,
+				6733F85518FBB9E800B3D30D /* cupcake5.png in Resources */,
+				671FE19418FB61CB0088E5C7 /* contactMeMain.png in Resources */,
+				671FE17618FB420F0088E5C7 /* linkedin.png in Resources */,
+				671FE17818FB42160088E5C7 /* twitter.png in Resources */,
+				671FE14E18FB3CB90088E5C7 /* Main.storyboard in Resources */,
+				671FE18318FB5BF00088E5C7 /* baking girl.png in Resources */,
+				671FE17018FB3CE20088E5C7 /* anshikaMain.jpg in Resources */,
+				671FE18618FB5BF00088E5C7 /* travel.png in Resources */,
+				6733F85C18FBC7AB00B3D30D /* anshikaResume.pdf in Resources */,
+				671FE18F18FB5F000088E5C7 /* bakingMain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671FE15618FB3CB90088E5C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE16418FB3CB90088E5C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671FE13318FB3CB90088E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE1A418FB9A5B0088E5C7 /* agarwalBlogViewController.m in Sources */,
+				671FE14B18FB3CB90088E5C7 /* agarwalAppDelegate.m in Sources */,
+				6733F85A18FBC1B200B3D30D /* agarwalResumeViewController.m in Sources */,
+				671FE15118FB3CB90088E5C7 /* agarwalViewController.m in Sources */,
+				671FE19E18FB95B50088E5C7 /* agarwalContactMeViewController.m in Sources */,
+				6733F84D18FBB6EA00B3D30D /* agarwalTravelViewController.m in Sources */,
+				671FE14718FB3CB90088E5C7 /* main.m in Sources */,
+				671FE1A718FB9FAF0088E5C7 /* agarwalWebViewController.m in Sources */,
+				6733F84A18FBB59F00B3D30D /* agarwalBakingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671FE15418FB3CB90088E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FE16618FB3CB90088E5C7 /* agarwalanshikaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		671FE15E18FB3CB90088E5C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671FE13618FB3CB90088E5C7 /* agarwalanshika */;
+			targetProxy = 671FE15D18FB3CB90088E5C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		671FE14318FB3CB90088E5C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671FE14418FB3CB90088E5C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		671FE14C18FB3CB90088E5C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671FE14D18FB3CB90088E5C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671FE16218FB3CB90088E5C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671FE16318FB3CB90088E5C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671FE16718FB3CB90088E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		671FE16818FB3CB90088E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671FE16A18FB3CB90088E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agarwalanshika/agarwalanshika-Prefix.pch";
+				INFOPLIST_FILE = "agarwalanshika/agarwalanshika-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		671FE16B18FB3CB90088E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agarwalanshika/agarwalanshika-Prefix.pch";
+				INFOPLIST_FILE = "agarwalanshika/agarwalanshika-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		671FE16D18FB3CB90088E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/agarwalanshika.app/agarwalanshika";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agarwalanshika/agarwalanshika-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "agarwalanshikaTests/agarwalanshikaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		671FE16E18FB3CB90088E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/agarwalanshika.app/agarwalanshika";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agarwalanshika/agarwalanshika-Prefix.pch";
+				INFOPLIST_FILE = "agarwalanshikaTests/agarwalanshikaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671FE13218FB3CB90088E5C7 /* Build configuration list for PBXProject "agarwalanshika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671FE16718FB3CB90088E5C7 /* Debug */,
+				671FE16818FB3CB90088E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671FE16918FB3CB90088E5C7 /* Build configuration list for PBXNativeTarget "agarwalanshika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671FE16A18FB3CB90088E5C7 /* Debug */,
+				671FE16B18FB3CB90088E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671FE16C18FB3CB90088E5C7 /* Build configuration list for PBXNativeTarget "agarwalanshikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671FE16D18FB3CB90088E5C7 /* Debug */,
+				671FE16E18FB3CB90088E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671FE12F18FB3CB90088E5C7 /* Project object */;
+}
